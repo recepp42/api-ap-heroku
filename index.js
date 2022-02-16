@@ -6,9 +6,7 @@ app.use(cors({
         credentials: true,
         origin: 'https://testingsoftware.herokuapp.com'
     }));
-app.options('*', cors({{
-        credentials: true,
-        origin: 'https://testingsoftware.herokuapp.com'}));
+app.options('*', cors());
 
 app.get('/', (req, res) => res.send('‘I modified this API'));
 
