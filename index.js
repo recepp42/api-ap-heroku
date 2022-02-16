@@ -3,7 +3,8 @@ const app = express();
 var cors = require('cors');
 
 app.use(cors({
-        origin: 'https://testingsoftware.herokuapp.com/'
+        credentials:true,
+        origin: 'https://zen-clarke-0d9d12.netlify.app'
     }));
 app.options('*', cors());
 
