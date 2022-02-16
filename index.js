@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(cors());
 app.options('*', cors({{
         credentials: true,
-        origin: 'https://zen-clarke-0d9d12.netlify.app'}));
+        origin: 'https://testingsoftware.herokuapp.com'}));
 
 app.get('/', (req, res) => res.send('‘I modified this API'));
 
