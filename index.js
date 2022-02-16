@@ -3,7 +3,7 @@ const app = express();
 var cors = require('cors');
 
 app.use(cors({
-        origin: 'https://testingsoftware.herokuapp.com'
+        origin: 'https://testingsoftware.herokuapp.com/'
     }));
 app.options('*', cors());
 
